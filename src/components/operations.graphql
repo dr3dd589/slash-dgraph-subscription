@@ -1,0 +1,10 @@
+mutation addInfo($var: AddInfoInput!) {
+    addInfo(input: [$var]) {
+        info {
+            id
+            name
+            email
+            emailSent
+        }
+    }
+}
