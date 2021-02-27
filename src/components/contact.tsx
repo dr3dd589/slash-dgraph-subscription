@@ -12,9 +12,7 @@ export function AddContact() {
     const [addInfo, setAddInfo] = useState(true);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [Number, setNumber] = useState("");
-    const [emailSent, setEmailSent] = useState(false);    
-    
+    const [Number, setNumber] = useState("");    
     const [AddInfoMutation] = useAddInfoMutation({
       refetchQueries: [namedOperations.Mutation.addInfo],
     });
