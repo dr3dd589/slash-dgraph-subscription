@@ -1,1 +1,1 @@
-# dgraph-subscription
+# slash-dgraph-subscription
