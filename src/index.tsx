@@ -20,7 +20,7 @@ const authlink = setContext(async (_, { headers }) => {
 
 const createApolloClient = () => {
   const httpLink = createHttpLink({
-    uri: "https://dr3dd1.stgdgraph.enterprise.stage.thegaas.com/graphql",
+    uri: "https://dr3dd.ap-south-1.aws.cloud.dgraph.io/graphql",
   })
 
   return new ApolloClient({
